@@ -6,6 +6,6 @@ def uniq_add(my_list=[]):
 
     unique_list = list(list_set)
 
-    result = uniq_add(my_list)
+    result = uniq_add(unique_list)
     print(result)
 
