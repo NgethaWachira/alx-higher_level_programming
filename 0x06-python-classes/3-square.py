@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Define a square class."""
+"""Define a class square."""
 
 class Square:
     """Represent a square."""
@@ -18,4 +18,4 @@ class Square:
 
     def area(self):
         """Return the current area of the square"""
-        return (self.size * self.__size)
+        return (self.__size * self.__size)
